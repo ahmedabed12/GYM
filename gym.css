@@ -8,6 +8,7 @@ h1{
     font-size: 50px;
     color: #8cad2a;
     text-shadow: 2px 2px 8px #046e37;
+    align-content: center;
 }
 img{
 height: 250px;
