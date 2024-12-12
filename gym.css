@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #021626;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #8cad2a;
+    text-shadow: 2px 2px 8px #046e37;
+}
+img{
+height: 250px;
+}
+.exer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
+.index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 15px
+}
+img:hover{
+    transform: scale(1.2);
+    border: dashed #6e042d ;
+}
+.logo{
+    margin-top: 150px;
+    font-size: 30px;
+    font-family:"Brush Script MT", cursive ;
+    color: #8cad2a;
+    text-shadow: 2px 2px 8px #046e37;
+}
+.logo:hover{
+    transform: scale(1.3);
+}
